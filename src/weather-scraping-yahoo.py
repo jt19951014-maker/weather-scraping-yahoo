@@ -100,4 +100,7 @@ for i in range(6):
 
 
 df = pd.DataFrame(data)
+
 df.to_csv("weather.csv", index = False, encoding="shift-jis")
+
+print("csvファイルを出力しました")
