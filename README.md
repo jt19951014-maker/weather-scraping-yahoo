@@ -43,11 +43,13 @@ python src/weather_scraping.py
 weather.csv が出力されます。
 
 ## 特徴
+```bash
 ・APIを使用せず、HTMLを直接解析するスクレイピング
 ・class の複数指定や br タグを考慮したHTML解析
 ・日付と曜日の抽出
 ・最高気温・最低気温の抽出
 ・pandas を使用したCSV出力
+```
 
 ## 使用技術
 ```bash
