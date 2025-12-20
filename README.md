@@ -50,10 +50,12 @@ weather.csv が出力されます。
 ・pandas を使用したCSV出力
 
 ## 使用技術
+```bash
 ・Python 3.12
 ・requests
 ・beautifulsoup4
 ・pandas
+```
 
 ## 構成
 ```bash
