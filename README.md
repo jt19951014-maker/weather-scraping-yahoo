@@ -41,3 +41,38 @@ python src/weather_scraping.py
 
 実行すると、スクリプトを実行したディレクトリに
 weather.csv が出力されます。
+
+## 特徴
+・APIを使用せず、HTMLを直接解析するスクレイピング
+・class の複数指定や br タグを考慮したHTML解析
+・日付と曜日の抽出
+・最高気温・最低気温の抽出
+・pandas を使用したCSV出力
+
+## 使用技術
+・Python 3.12
+・requests
+・beautifulsoup4
+・pandas
+
+## 構成
+```bash
+weather-scraping-yahoo/
+├─ src/
+│   └─ weather_scraping.py
+├─ data/
+│   └─ weather.csv
+├─ requirements.txt
+├─ README.md
+└─ .gitignore
+```
+
+## 今後の拡張予定
+・他地域への対応（URLのパラメータ化）
+・天気データの可視化（グラフ表示）
+・平均気温・気温差の計算
+・エラーハンドリングの強化
+・Webアプリ化
+
+## License
+MIT License
