@@ -68,11 +68,13 @@ weather-scraping-yahoo/
 ```
 
 ## 今後の拡張予定
+```bash
 ・他地域への対応（URLのパラメータ化）
 ・天気データの可視化（グラフ表示）
 ・平均気温・気温差の計算
 ・エラーハンドリングの強化
 ・Webアプリ化
+```
 
 ## License
 MIT License
