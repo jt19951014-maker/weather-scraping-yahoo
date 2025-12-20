@@ -24,7 +24,7 @@ Yahoo!天気から東京都の1週間分の天気情報（日時・天気・最�
 ## 使い方
 ### 1. リポジトリをクローン
 ```bash
-git clone https://github.com/USERNAME/weather-scraping-yahoo.git
+git clone https://github.com/jt19951014-maker/weather-scraping-yahoo.git
 cd weather-scraping-yahoo
 ```
 
@@ -32,3 +32,11 @@ cd weather-scraping-yahoo
 ```bash
 pip install -r requirements.txt
 ```
+
+### 3. スクリプトを実行
+```bash
+python src/weather_scraping.py
+```
+
+実行すると、スクリプトを実行したディレクトリに
+weather.csv が出力されます。
